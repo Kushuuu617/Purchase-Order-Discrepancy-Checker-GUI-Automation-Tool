@@ -32,6 +32,8 @@ Behind the scenes:
 ## 🛡️ Disclaimer
 ⚠️ This automation script is tailored for Indus Towers ERP system.
 If your ERP interface differs, manual adjustments may be needed.
+This project is meant for internal use, testing, or learning purposes.
+Always ensure compliance with your organization’s automation policies before use.
 
 ## 🖼️ Preview
 
