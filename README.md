@@ -1,27 +1,46 @@
-# 🧾 **Purchase Order Discrepancy Checker (Selenium Automation)**
+# 🔍 Purchase Order Discrepancy Checker – GUI Automation Tool
 
-A Python automation tool to streamline the manual process of verifying Purchase Orders (POs) in an ERP system. This script logs into the portal, navigates through POs, checks if the billed amount is less than the total amount, and exports such POs to an Excel file.
+A robust **Python GUI application** built with **Tkinter** and **Selenium** to automate the process of verifying Purchase Orders (POs) from an ERP system.
 
-## 🔧 **Features**
+This tool checks if the **billed amount** is less than the **total PO amount**, skipping “Global Blanket Agreement” POs, and exports discrepancies to an Excel file. It comes with a **user-friendly GUI** and real-time logging.
 
-- ✅ Automates ERP login and navigation  
-- ✅ Parses all paginated PO entries  
-- ✅ Skips "Global Blanket Agreement" document types  
-- ✅ Compares billed vs total amount  
-- ✅ Exports results to Excel  
-- ✅ Reduces manual effort by 90%
+---
 
-## 🖼️ **Preview**
+## ✅ Features
 
-> Example:  
-> Checks POs like  
-> `PO12345 | Total: ₹100000 | Billed: ₹75000 → Saved to Excel`
+- 🖥️ GUI-based for ease of use (no CLI needed)
+- 🔐 Secure login (masked password entry)
+- ⚙️ Automates ERP login, navigation, and PO access
+- 🔎 Compares **billed** vs **total** amount
+- 🚫 Skips **Global Blanket Agreement** POs
+- 📄 Supports paginated PO tables
+- 📊 Exports discrepant POs to Excel
+- 💬 Real-time status updates within the app
+- 💯 Reduces manual checking effort by 90%
 
-## 📦 **Requirements**
+---
+## 🧠 How It Works
+Behind the scenes:
+🧭 Launches Chrome via Selenium
+🔐 Logs into the ERP system
+🗂 Navigates paginated PO results
+🪟 Opens each PO in a new tab
+📊 Compares total and billed amounts
+📥 Logs discrepancies
+📈 Saves under-billed PO numbers in an Excel workbook
 
-- Python 3.7+
-- Google Chrome
-- ChromeDriver (installed and added to system PATH)
+## 🛡️ Disclaimer
+⚠️ This automation script is tailored for Indus Towers ERP system.
+If your ERP interface differs, manual adjustments may be needed.
+
+## 🖼️ Preview
+
+```text
+Discrepancy found: PO123456
+Discrepancy found: PO123987
+✔ Excel file saved successfully.
+✅ All pages processed.
+Browser closed.
 
 
 
