@@ -20,14 +20,16 @@ This tool checks if the **billed amount** is less than the **total PO amount**, 
 
 ---
 ## 🧠 How It Works
+
 Behind the scenes:
-🧭 Launches Chrome via Selenium
-🔐 Logs into the ERP system
-🗂 Navigates paginated PO results
-🪟 Opens each PO in a new tab
-📊 Compares total and billed amounts
-📥 Logs discrepancies
-📈 Saves under-billed PO numbers in an Excel workbook
+
+- 🧭 Launches Chrome via Selenium
+- 🔐 Logs into the ERP system
+- 🗂 Navigates paginated PO results
+- 🪟 Opens each PO in a new tab
+- 📊 Compares total and billed amounts
+- 📥 Logs discrepancies
+- 📈 Saves under-billed PO numbers in an Excel workbook
 
 ## 🛡️ Disclaimer
 ⚠️ This automation script is tailored for Indus Towers ERP system.
