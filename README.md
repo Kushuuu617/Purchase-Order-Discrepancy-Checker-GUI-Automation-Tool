@@ -8,28 +8,27 @@ This tool checks if the **billed amount** is less than the **total PO amount**, 
 
 ## ✅ Features
 
-- 🖥️ GUI-based for ease of use (no CLI needed)
-- 🔐 Secure login (masked password entry)
-- ⚙️ Automates ERP login, navigation, and PO access
-- 🔎 Compares **billed** vs **total** amount
-- 🚫 Skips **Global Blanket Agreement** POs
-- 📄 Supports paginated PO tables
-- 📊 Exports discrepant POs to Excel
-- 💬 Real-time status updates within the app
-- 💯 Reduces manual checking effort by 90%
+-  GUI-based for ease of use (no CLI needed)
+-  Automates ERP login, navigation, and PO access
+-  Compares **billed** vs **total** amount
+-  Skips **Global Blanket Agreement** POs
+-  Supports paginated PO tables
+-  Exports discrepant POs to Excel
+-  Real-time status updates within the app
+-  Reduces manual checking effort by 90%
 
 ---
 ## 🧠 How It Works
 
 Behind the scenes:
 
-- 🧭 Launches Chrome via Selenium
-- 🔐 Logs into the ERP system
-- 🗂 Navigates paginated PO results
-- 🪟 Opens each PO in a new tab
-- 📊 Compares total and billed amounts
-- 📥 Logs discrepancies
-- 📈 Saves under-billed PO numbers in an Excel workbook
+-  Launches Chrome via Selenium
+-  Logs into the ERP system
+-  Navigates paginated PO results
+-  Opens each PO in a new tab
+-  Compares total and billed amounts
+-  Logs discrepancies
+-  Saves under-billed PO numbers in an Excel workbook
 
 ## 🛡️ Disclaimer
 ⚠️ This automation script is tailored for Indus Towers ERP system.
