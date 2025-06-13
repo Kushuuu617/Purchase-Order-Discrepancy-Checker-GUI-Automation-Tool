@@ -1,2 +1,3 @@
-selenium
-openpyxl
+selenium: For browser automation
+openpyxl: For writing Excel output
+tkinter: Comes pre-installed with Python
